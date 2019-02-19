@@ -1,0 +1,22 @@
+{
+  "name": "node-tdd-jest",
+  "version": "1.0.0",
+  "description": "Node JS, TDD, Jest",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Ever Aliaga",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.6",
+    "@types/supertest": "^2.0.7",
+    "jest": "^24.1.0",
+    "supertest": "^3.4.2"
+  }
+}
